@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f4e6dc4f619d4ef992f47b5099a6a674" Name="Diagram1" ZoomLevel="89" >
+        <EntityTypeShape EntityType="CarModel1.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="2.125" />
+        <EntityTypeShape EntityType="CarModel1.AspNetRole" Width="1.5" PointX="0.75" PointY="6.375" />
+        <EntityTypeShape EntityType="CarModel1.AspNetUserClaim" Width="1.5" PointX="3.625" PointY="2.625" />
+        <EntityTypeShape EntityType="CarModel1.AspNetUserLogin" Width="1.5" PointX="5.75" PointY="8.625" />
+        <EntityTypeShape EntityType="CarModel1.AspNetUser" Width="1.5" PointX="3" PointY="5.125" />
+        <EntityTypeShape EntityType="CarModel1.Car" Width="1.5" PointX="9.625" PointY="8.125" />
+        <EntityTypeShape EntityType="CarModel1.Order" Width="1.5" PointX="9.25" PointY="4" />
+        <AssociationConnector Association="CarModel1.AspNetUserRoles" />
+        <AssociationConnector Association="CarModel1.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="CarModel1.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="CarModel1.AspNetUserCar" />
+        <AssociationConnector Association="CarModel1.OrderCar" />
+        <AssociationConnector Association="CarModel1.AspNetUserOrder" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
